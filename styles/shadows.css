@@ -1,0 +1,6 @@
+:root{
+	--shadow_100: 0px 2px 20px rgba(0, 0, 0, 0.1);
+	--shadow_80: 0px 2px 12px rgba(0, 0, 0, 0.2);
+	--shadow_60: 0px -4px 16px rgba(0, 0, 0, 0.08);
+	--shadow_50: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}

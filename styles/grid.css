@@ -1,0 +1,44 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+	margin: 0 -12px;
+}
+
+.row:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+.col {
+	float: left;
+	padding: 0 12px;
+	box-sizing: border-box;
+}
+
+.col-33 {
+	width: 33.33%;
+}
+
+.col-66 {
+	width: 66.66%;
+}
+
+.col-25 {
+	width: 25%;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.col-75 {
+	width: 75%;
+}
+
+.col-100{
+	width: 100%;
+}

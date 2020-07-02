@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Grid</title>
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="light">
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col col-100">
+					<div class="headerContent">
+						<img src="img/logo.svg" alt="workspace_logo">
+						<button class="primaryS_light link"><i data-feather="moon" class="icon_20"></i><span>Темная тема</span></button>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col col-33">
+					<div class="task1">
+						<h2>Задание 1</h2>
+						<p>Поменяйте текст</p>
+						<div class="textSample">
+							<p>Вы можете поменять этот текст</p>
+						</div>
+						<textarea placeholder="Введите текст для смены" required></textarea>
+						<button class="primaryXL link">Заменить текст</button>
+					</div>
+					<div class="likeBlock">
+						<h3>Понравилось Задание 1?</h3>
+						<p>Поставьте лайк</p>
+						<button class="linkIcon link"><i data-feather="heart" class="icon_16"></i><span>Нравится</span></button>
+					</div>
+				</div>
+				<div class="col col-33">
+					<div class="task2">
+						<h2>Задание 2</h2>
+						<p>Составьте список задач</p>
+						<h3>Мои задачи</h3>
+						<ul class="listTask">
+							<li class="taskItem p"><img src="img/Main/Task/icon/20/chevron-right.svg" alt=""><span>Сходить и купить молоко</span></li>
+							<li class="taskItem p important"><img src="img/Main/Task/icon/20/chevron-right.svg" alt=""><span>Убраться дома</span></li>
+						</ul>
+						<textarea placeholder="Введите текст задачи" required></textarea>
+						<button class="primaryS_light link mb-16" disabled><span>Важная задача</span></button>
+						<button class="primaryXL link">Создать задачу</button>
+					</div>
+				</div>
+				<div class="col col-33">
+					<div class="chat">
+						<div class="chatTitle">
+							<h2>Vladogram</h2>
+						</div>
+						<div class="chatBody">
+							<div class="chatMessage">
+								<p class="caption">Мистер</p>
+								<p>Привет, как дела?) Чем занимаешь? Может сходим прогуляемся сегодня после 19.00? Погода прекрасная и дома сидеть не хочется</p>
+							</div>
+							<div class="chatMessage guest">
+								<p class="caption">Миссис</p>
+								<p>Всё хорошо. Да, это отличная идея. Погода прекрасная и дома сидеть не хочется</p>
+							</div>
+							<div class="chatMessage">
+								<p class="caption">Мистер</p>
+								<p>Привет, как дела?)</p>
+							</div>
+							<div class="chatMessage guest">
+								<p class="caption">Миссис</p>
+								<p>Всё хорошо</p>
+							</div>
+							<div class="chatMessage">
+								<p class="caption">Мистер</p>
+								<p>Привет, как дела?)</p>
+							</div>
+							<div class="chatMessage guest">
+								<p class="caption">Миссис</p>
+								<p>Всё хорошо</p>
+							</div>
+						</div>
+						<div class="chatSend">
+							<input type="text" placeholder="Введите сообщение">
+							<button class="fab"><img src="img/Main/Fab/icon/20/send.svg" alt=""></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

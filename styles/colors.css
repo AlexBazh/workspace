@@ -1,0 +1,43 @@
+:root{
+	--gray_1000: #212121;
+	--gray_900: #353535;
+	--gray_800: #444444;
+	--gray_700: #666666;
+	--gray_600: #999999;
+	--gray_500: #AEAEAE;
+	--gray_400: #CCCCCC;
+	--gray_300: #E7E7E7;
+	--gray_200: #F2F2F2;
+	--gray_100: #FAFAFA;
+
+	--black_100: #000000;
+	--black_A80: rgba(0, 0, 0, 0.8);
+	--black_A40: rgba(0, 0, 0, 0.4);
+	--black_A10: rgba(0, 0, 0, 0.1);
+
+	--white_100: #ffffff;
+	--white_A80: rgba(255, 255, 255, 0.8);
+	--white_A40: rgba(255, 255, 255, 0.4);
+	--white_A10: rgba(255, 255, 255, 0.1);
+
+	--blue_100: #164B92;
+	--blue_80: #1E61BA;
+	--blue_60: #2F80ED;
+	--blue_A40: rgba(47, 128, 237, 0.4);
+	--blue_A20: rgba(47, 128, 237, 0.2);
+	--blue_A10: rgba(47, 128, 237, 0.1);
+
+	--green_100: #4B9D6E;
+	--green_80: #58AE7C;
+	--green_60: #6FCF97;
+	--green_A40: rgba(111, 207, 151, 0.4);
+	--green_A20: rgba(111, 207, 151, 0.2);
+	--green_A10: rgba(99, 185, 186, 0.1);
+
+	--red_100: #BD3939;
+	--red_80: #D24040;
+	--red_60: #E74343;
+	--red_A40: rgba(231, 67, 67, 0.4);
+	--red_A20: rgba(231, 67, 67, 0.2);
+	--red_A10: rgba(231, 67, 67, 0.1);
+}
