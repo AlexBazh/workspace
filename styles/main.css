@@ -4,6 +4,7 @@
 @import "shadows.css";
 @import "buttons.css";
 @import "inputs.css";
+@import "fonts.css";
 
 * {
 	padding: 0;
