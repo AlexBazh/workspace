@@ -21,5 +21,6 @@ createTaskForm.onsubmit = function (evt) {
 	if (priorityTaskButton.classList.contains('important_btn')) {
 		newTask.classList.add('important_task');
 	};
+	createTaskTextarea.value = '';
 };
 

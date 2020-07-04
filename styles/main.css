@@ -118,7 +118,7 @@
 }
 
 .listTask .important_task {
-		background: url(../img/Main/Task/icon/20/chevron-right.svg) no-repeat 12px 16px var(--gray_900);
+	background: url(../img/Main/Task/icon/20/chevron-right.svg) no-repeat 12px 16px var(--gray_900);
 	color: var(--white_100);
 }
 
@@ -202,6 +202,42 @@
 .liked {
 	fill: var(--white_100);
 	color: var(--white_100);
+}
+
+.title_link{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.filter{
+	border: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	color: var(--blue_60);
+	padding: 0;
+	margin: 0;
+	background-color: var(--white100);
+}
+
+.filter:hover{
+	color: var(--blue_80);
+}
+
+.filter:focus{
+	outline: none;
+}
+
+.limitCounter{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.textCounter {
+	color: var(--gray_700);
 }
 
 

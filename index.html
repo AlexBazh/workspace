@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Grid</title>
+	<title>Workspace</title>
 	<link rel="stylesheet" href="styles/main.css">
+	<link rel="icon" href="img/favicon.png" type="image/png">
 </head>
 <body class="light">
 	<header class="header">
@@ -44,14 +45,24 @@
 					<div class="task2">
 						<h2>Задание 2</h2>
 						<p>Составьте список задач</p>
-						<h3>Мои задачи</h3>
+						<div class="title_link">
+							<h3>Мои задачи</h3>
+							<select class="filter link" name="dropdownFilter">
+								<option value="all">Все задачи</option>
+								<option value="importants">Важные</option>
+								<option value="regulars">Обычные</option>
+							</select>
+						</div>
 						<ul class="listTask">
 							<li>Сходить в магазин</li>
 							<li class="important_task">Убраться дома</li>
 						</ul>
 						<form action="" class="createTaskForm">
 							<textarea class="createTaskTextarea" placeholder="Введите текст задачи" required></textarea>
-							<button type="button" class="primaryS_light link mb-16 priorityTaskButton"><span>Обычная задача</span></button>
+							<div class="limitCounter">
+								<button type="button" class="primaryS_light link mb-16 priorityTaskButton"><span>Обычная задача</span></button>
+								<span class="p textCounter"><span class="charCounter">0</span>/60 символов</span>
+							</div>
 							<button type="submit" class="primaryXL link createTaskButton">Создать задачу</button>
 						</form>	
 					</div>
