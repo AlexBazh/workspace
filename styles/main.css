@@ -12,6 +12,43 @@
 	box-sizing: border-box;
 }
 
+.preloader{
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--white_100);
+	z-index: 1001;
+	width: 100%;
+	height: 100%;
+}
+
+.preloaderLogo{
+	margin-bottom: 32px;
+}
+
+.progressBar {
+	border-radius: 2px;
+	height: 2px;
+	background-color: var(--blue_80);
+	animation: loading 1s linear infinite;
+}
+
+@keyframes loading{
+	0%{
+		width: 0;
+	}
+	100%{
+		width: 312px;
+	}
+}
+
+.hidePreloader {
+	transition: 0.5s opacity 0.5s;
+	opacity: 0;
+  }
+
 .dark {
 	background-color: var(--gray_1000);
 	color: var(--white_100);
