@@ -188,7 +188,10 @@
 	margin-right: 8px;
 }
 
-
+.liked {
+	fill: var(--white_100);
+	color: var(--white_100);
+}
 
 
 
