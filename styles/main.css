@@ -102,22 +102,33 @@
 	margin-bottom: 16px;
 }
 
-.taskItem {
+.listTask li {
 	display: flex;
 	flex-direction: row;
-	padding: 16px;
-	background: var(--gray_200);
+	padding: 16px 16px 16px 36px;
+	background: url(../img/Main/Task/icon/20/chevron-right.svg) no-repeat 12px 16px var(--gray_200);
 	color: var(--gray_800);
 	border-radius: 8px;
 	margin-bottom: 8px;
+	font-family: Circe;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
 }
 
-.taskItem span {
-	margin-left: 8px;
+.listTask .important_task {
+		background: url(../img/Main/Task/icon/20/chevron-right.svg) no-repeat 12px 16px var(--gray_900);
+	color: var(--white_100);
 }
-
-.important {
+s
+.important_btn {
 	background: var(--gray_900);
+	color: var(--white_100);
+}
+
+.important_btn:hover {
+	background: var(--gray_700);
 	color: var(--white_100);
 }
 

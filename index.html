@@ -46,12 +46,14 @@
 						<p>Составьте список задач</p>
 						<h3>Мои задачи</h3>
 						<ul class="listTask">
-							<li class="taskItem p"><img src="img/Main/Task/icon/20/chevron-right.svg" alt=""><span>Сходить и купить молоко</span></li>
-							<li class="taskItem p important"><img src="img/Main/Task/icon/20/chevron-right.svg" alt=""><span>Убраться дома</span></li>
+							<li>Сходить в магазин</li>
+							<li class="important_task">Убраться дома</li>
 						</ul>
-						<textarea placeholder="Введите текст задачи" required></textarea>
-						<button class="primaryS_light link mb-16"><span>Важная задача</span></button>
-						<button class="primaryXL link">Создать задачу</button>
+						<form action="" class="createTaskForm">
+							<textarea class="createTaskTextarea" placeholder="Введите текст задачи" required></textarea>
+							<button type="button" class="primaryS_light link mb-16 priorityTaskButton"><span>Обычная задача</span></button>
+							<button type="submit" class="primaryXL link createTaskButton">Создать задачу</button>
+						</form>	
 					</div>
 				</div>
 				<div class="col col-33">
@@ -99,5 +101,6 @@
     <script src="js/main.js"></script>
     <script src="js/changeText.js"></script>
     <script src="js/likes.js"></script>
+    <script src="js/createTask.js"></script>
 </body>
 </html>
