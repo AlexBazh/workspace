@@ -1,21 +1,15 @@
 @font-face {
 	font-family: 'Circe';
-	src: url('fonts/Circe/Circe-Regular.eot');
-	src: local('Circe'), local('Circe-Regular'),
-		url('fonts/Circe/Circe-Regular.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Circe/Circe-Regular.woff') format('woff'),
-		url('fonts/Circe/Circe-Regular.ttf') format('truetype');
+	src: url('../fonts/Circe-Regular.eot');
+	src: local('☺'), url('../fonts/Circe-Regular.woff') format('woff'), url('../fonts/Circe-Regular.ttf') format('truetype'), url('../fonts/Circe-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Circe';
-	src: url('fonts/Circe/Circe-Bold.eot');
-	src: local('Circe Bold'), local('Circe-Bold'),
-		url('fonts/Circe/Circe-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Circe/Circe-Bold.woff') format('woff'),
-		url('fonts/Circe/Circe-Bold.ttf') format('truetype');
-	font-weight: bold;
+	src: url('../fonts/Circe-Bold.eot');
+	src: local('☺'), url('../fonts/Circe-Bold.woff') format('woff'), url('../fonts/Circe-Bold.ttf') format('truetype'), url('../fonts/Circe-Bold.svg') format('svg');
+	font-weight: 700;
 	font-style: normal;
 }
