@@ -49,6 +49,10 @@
 	opacity: 0;
   }
 
+.removePreloader {
+	display: none;
+}
+
 .dark {
 	background-color: var(--gray_1000);
 	color: var(--white_100);
