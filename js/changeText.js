@@ -1,8 +1,9 @@
-let changeText = document.querySelector('.changeText');
 let changeForm = document.querySelector('.changeForm');
+let changeTextarea = document.querySelector('.changeTextarea');
 let buttonChange = document.querySelector('.buttonChange');
+let changeText = document.querySelector('.changeText');
 
-buttonChange.onclick = function (evt) {
+changeForm.onsubmit = function (evt) {
 	evt.preventDefault ();
-	changeText.textContent = changeForm.value;
+	changeText.textContent = changeTextarea.value;
 };
