@@ -18,4 +18,8 @@ createTaskForm.onsubmit = function (evt) {
 	let newTask = document.createElement('li');
 	listTask.append(newTask);
 	newTask.textContent = createTaskTextarea.value;
+	if (priorityTaskButton.classList.contains('important_btn')) {
+		newTask.classList.add('important_task');
+	};
 };
+
