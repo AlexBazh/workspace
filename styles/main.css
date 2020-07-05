@@ -63,11 +63,14 @@
 	color: var(--black_100);
 }
 
+
 .header {
 	padding: 22px 0px;
 	width: 100%;
 	background-color: var(--white_100);
 	box-shadow: var(--shadow_100);
+	position: fixed;
+	top: 0;
 }
 
 .headerContent {
@@ -75,12 +78,8 @@
 	justify-content: space-between;
 }
 
-.header img {
-	
-}
-
-.header button {
-	
+.content {
+	padding-top: 80px;
 }
 
 .task1, .task2{
