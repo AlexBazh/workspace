@@ -60,6 +60,7 @@
 @media (max-width: 992px){
 	.container{
 		max-width: 960px;
+		padding: 0 24px;
 	}
 	.col{
 		float: none;
@@ -75,5 +76,6 @@
 @media (max-width: 767px){
 	.container{
 		max-width: none;
+		padding: 0 16px;
 	}
 }
