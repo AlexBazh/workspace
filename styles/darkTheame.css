@@ -1,0 +1,11 @@
+.dark {
+    background-color: var(--gray_900);
+}
+
+.dark .header{
+    background-color: var(--gray_1000);
+}
+
+.dark #logoHeader {
+	fill: var(--white_100);
+}
