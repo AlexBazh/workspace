@@ -276,7 +276,9 @@
 	color: var(--gray_700);
 }
 
-
+.textCounterWarning {
+	color: var(--red_80);
+}
 
 
 

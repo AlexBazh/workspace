@@ -6,4 +6,5 @@ let changeText = document.querySelector('.changeText');
 changeForm.onsubmit = function (evt) {
 	evt.preventDefault ();
 	changeText.textContent = changeTextarea.value;
+	changeTextarea.value = '';
 };
