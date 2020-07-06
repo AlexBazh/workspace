@@ -9,3 +9,11 @@
 .dark #logoHeader {
 	fill: var(--white_100);
 }
+
+.dark .task1{
+	background-color: var(--gray_1000);
+}
+
+.dark .task1 h2 {
+	color: var(--white_100);
+}
