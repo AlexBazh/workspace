@@ -55,7 +55,7 @@
 							<p class="changeText">Вы можете поменять этот текст</p>
 						</div>
 						<form action="" class="changeForm">
-							<textarea class="changeTextarea" placeholder="Введите текст для смены" required></textarea>
+							<textarea type="text" class="changeTextarea" placeholder="Введите текст для смены" required></textarea>
 							<button type="submit" class="primaryXL link buttonChange">Заменить текст</button>
 						</form>
 					</div>
@@ -82,7 +82,7 @@
 							<li class="tasks important_task" data-category = "importants">Убраться дома</li>
 						</ul>
 						<form action="" class="createTaskForm">
-							<textarea class="createTaskTextarea" placeholder="Введите текст задачи" maxlength="40" required></textarea>
+							<textarea type="text" class="createTaskTextarea" placeholder="Введите текст задачи" maxlength="40" required></textarea>
 							<div class="limitCounter">
 								<button type="button" class="primaryS_light link mb-16 priorityTaskButton"><span>Обычная задача</span></button>
 								<span class="p textCounter"><span class="charCounter">0</span>/40 символов</span>
@@ -123,7 +123,7 @@
 							</div>
 						</div>
 						<div class="chatSend">
-							<input type="text" placeholder="Введите сообщение">
+							<input type="text" maxlength="10" placeholder="Введите сообщение">
 							<button class="fab"><img src="img/Main/Fab/icon/20/send.svg" alt=""></button>
 						</div>
 					</div>
