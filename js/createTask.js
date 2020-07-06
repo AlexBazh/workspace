@@ -44,7 +44,6 @@ createTaskTextarea.oninput = function () {
  	charCounter.textContent = createTaskTextarea.value.length;
 
  	if (createTaskTextarea.value.length>=40) {
- 		createTaskTextarea.setAttribute("maxlength", "40")
 		textCounter.classList.add('textCounterWarning');
  	} else { 
 		textCounter.classList.remove('textCounterWarning');
