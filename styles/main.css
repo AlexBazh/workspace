@@ -193,6 +193,7 @@
 	flex-direction: column;
 	height: 350px;
 	overflow: auto;
+	scroll-behavior: smooth;
 }
 
 .chatMessage {
