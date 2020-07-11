@@ -9,5 +9,9 @@ buttonChangeTheme.onclick = function () {
 	bodyChangeTheme.classList.toggle('dark');
 	bodyChangeTheme.classList.toggle('light');
 	buttonChangeTheme.classList.toggle('primaryS_dark');
+	if (bodyChangeTheme.classList.contains('dark')) {
 	spanChangeTheme.textContent = "Светлая тема";
+		} else {
+		spanChangeTheme.textContent = "Темная тема";
+		};
 }
