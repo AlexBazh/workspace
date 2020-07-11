@@ -17,3 +17,161 @@
 .dark .task1 h2 {
 	color: var(--white_100);
 }
+
+.dark .task1 p {
+	color: var(--white_A80);
+}
+
+.dark .textSample {
+	background-color: var(--gray_900);
+}
+
+.dark .task1 .textSample p {
+	color: var(--gray_100);
+}
+
+.dark textarea {
+	background: var(--gray_800);
+	border: 1px solid var(--gray_700);
+	color: var(--white_100);
+}
+
+.dark textarea::placeholder {
+	color: var(--gray_400);
+}
+
+.dark textarea:hover {
+	box-shadow: var(--shadow_50);
+}
+
+.dark textarea:focus {
+	border: 1px solid var(--blue_60);
+	outline: none;
+	box-shadow: var(--shadow_50);
+}
+
+.dark textarea:disabled {
+	background: var(--gray_900);
+	border: 1px solid var(--gray_800);
+	color: var(--gray_500);
+}
+
+.dark textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+.dark textarea::-webkit-scrollbar-thumb {
+  background-color: var(--gray_400);
+  outline: 1px solid var(--gray_400);
+  border-radius: 12px;
+}
+
+.dark .likeBlock {
+	background-color: var(--green_80);
+}
+
+.dark .task2{
+	background-color: var(--gray_1000);
+}
+
+.dark .task2 h2 {
+	color: var(--white_100);
+}
+
+.dark .task2 p {
+	color: var(--white_A80);
+}
+
+.dark .task2 h3 {
+	color: var(--white_100);
+}
+
+.dark .listTask li {
+	background-color: var(--gray_900);;
+	color: var(--gray_100);
+}
+
+.dark .listTask .important_task {
+	background-color: var(--gray_200);;
+	color: var(--gray_900);
+}
+
+.dark .limitCounter .primaryS_light {
+	background-color: var(--white_A10);
+	color: var(--white_100);
+}
+
+.dark .limitCounter .primaryS_light:hover {
+	background-color: var(--gray_800);
+}
+
+.dark .limitCounter .primaryS_light:active {
+	background-color: var(--gray_700);
+}
+
+.dark .limitCounter .primaryS_light:disabled {
+	background-color: var(--gray_900);
+	color: var(--gray_700);
+}
+
+.dark .limitCounter .important_btn {
+	background: var(--white_100);
+	color: var(--gray_900);
+}
+
+.dark .limitCounter .important_btn:hover {
+	background: var(--white_A80);
+	color: var(--gray_900);
+}
+
+.dark .chat{
+	background-color: var(--gray_1000);
+}
+
+.dark .chat h2 {
+	color: var(--white_100);
+}
+
+.dark .chatMessage {
+	background-color: var(--gray_800);
+	color: var(--gray_100);
+}
+
+.dark .guest {
+	background: var(--blue_60);
+	color: var(--white_100);
+}
+
+.dark .guest > .caption {
+	color: var(--white_A40);
+}
+
+.dark .chatSend {
+	background-color: var(--gray_1000);
+}
+
+.dark input {
+	background: var(--gray_800);
+	border: 1px solid var(--gray_700);
+	color: var(--white_100);
+}
+
+.dark input::placeholder {
+	color: var(--gray_400);
+}
+
+.dark input:hover {
+	box-shadow: var(--shadow_50);
+}
+
+.dark input:focus {
+	border: 1px solid var(--blue_60);
+	outline: none;
+	box-shadow: var(--shadow_50);
+}
+
+.dark input:disabled {
+	background: var(--gray_900);
+	border: 1px solid var(--gray_800);
+	color: var(--gray_500);
+}
