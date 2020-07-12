@@ -3,6 +3,7 @@ let chatButton = document.querySelector('.chatButton');
 let chatInput = document.querySelector('.chatInput');
 let chatForm = document.querySelector('.chatForm');
 let chatBody = document.querySelector('.chatBody');
+let likeGuest = document.querySelector('#likeGuest');
 
 chatBody.scrollTop = chatBody.scrollHeight;
 
@@ -20,7 +21,9 @@ chatForm.onsubmit = function (evt) {
 	newP.textContent = chatInput.value;
 	chatBody.scrollTop = chatBody.scrollHeight;
 	chatInput.value = '';
+	if (likeGuest.checked) {
+		newDivMessage.classList.add('guest');
+		sender.textContent = "Миссис";
+	}
 };
-
-
 
